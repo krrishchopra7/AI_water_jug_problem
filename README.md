@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Water Jug Tutor
 
-# Run and deploy your AI Studio app
+Interactive tutor and visualizer for water‑jug puzzles. Configure jug capacities, initial and goal states, run different search algorithms (BFS, DFS, IDDFS, UCS, A*), inspect the search tree, get AI hints, and auto‑solve while comparing analytics (nodes expanded, frontier size, time).
 
-This contains everything you need to run your app locally.
+Created by `krrishchopra7`.
 
-View your app in AI Studio: https://ai.studio/apps/44ff8cb7-32e3-4ea7-92f0-470d690a4844
+## Run locally
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+Prerequisites: Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+```bash
+npm install
+```
+
+2. Start the dev server:
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 in your browser.
+
+## Build
+
+```bash
+npm run build
+# Serve the generated `dist/` with any static host
+```
+
+## Features
+
+- Configure jug capacities, initial state and goal state
+- Solve with BFS, DFS, IDDFS, UCS, and A* (heuristic = Σ |current_i − goal_i|)
+- Visual search tree with node annotations (`g`, `h`, `f`)
+- Get hints, view full solution, or auto‑solve step by step
+
+## Tech
+
+- React + TypeScript
+- Vite
+- D3 for search tree visualization
+
+## License
+
+This project is provided by the author. Add a license file (e.g., MIT) if you want to open-source it.
