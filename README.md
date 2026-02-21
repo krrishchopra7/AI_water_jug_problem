@@ -4,6 +4,10 @@ Interactive tutor and visualizer for water‑jug puzzles. Configure jug capaciti
 
 Created by `krrishchopra7`.
 
+## Live demo
+
+The app is published via GitHub Pages: https://krrishchopra7.github.io/AI_water_jug_problem/
+
 ## Run locally
 
 Prerequisites: Node.js
