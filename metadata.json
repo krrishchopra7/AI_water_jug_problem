@@ -1,5 +1,5 @@
 {
-  "name": "AI Water Jug Tutor",
+  "name": "Liquid Logic",
   "description": "An interactive AI-powered learning tool for solving the Water Jug Problem with real-time hints and state-space search visualization.",
   "requestFramePermissions": []
 }

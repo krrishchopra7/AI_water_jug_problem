@@ -1,0 +1,46 @@
+{
+  "hash": "beb2968e",
+  "configHash": "0c7ef811",
+  "lockfileHash": "b69556b5",
+  "browserHash": "d63d6e4f",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "bd2bdbd8",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "8e00e83e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "6fd07168",
+      "needsInterop": true
+    },
+    "motion/react": {
+      "src": "../../node_modules/motion/dist/es/react.mjs",
+      "file": "motion_react.js",
+      "fileHash": "0ea761ff",
+      "needsInterop": false
+    },
+    "d3": {
+      "src": "../../node_modules/d3/src/index.js",
+      "file": "d3.js",
+      "fileHash": "ddfcca8c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3IFX6TK2": {
+      "file": "chunk-3IFX6TK2.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
